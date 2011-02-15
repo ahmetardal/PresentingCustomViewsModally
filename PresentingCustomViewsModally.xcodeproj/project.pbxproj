@@ -17,6 +17,7 @@
 		28D7ACF80DDB3853001CB0EB /* PresentingCustomViewsModallyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* PresentingCustomViewsModallyViewController.m */; };
 		E339BC9813083AD00002C3A3 /* ModalBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = E339BC9713083AD00002C3A3 /* ModalBoxView.m */; };
 		E339BC9E1308434B0002C3A3 /* modalbox_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E339BC9D1308434B0002C3A3 /* modalbox_bg.png */; };
+		E3C93EE4130AF0AC005DCE91 /* modalbox_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3C93EE3130AF0AC005DCE91 /* modalbox_bg@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		E339BC9613083AD00002C3A3 /* ModalBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalBoxView.h; sourceTree = "<group>"; };
 		E339BC9713083AD00002C3A3 /* ModalBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalBoxView.m; sourceTree = "<group>"; };
 		E339BC9D1308434B0002C3A3 /* modalbox_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = modalbox_bg.png; path = Graphics/modalbox_bg.png; sourceTree = "<group>"; };
+		E3C93EE3130AF0AC005DCE91 /* modalbox_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "modalbox_bg@2x.png"; path = "Graphics/modalbox_bg@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E3C93EE3130AF0AC005DCE91 /* modalbox_bg@2x.png */,
 				E339BC9D1308434B0002C3A3 /* modalbox_bg.png */,
 				2899E5210DE3E06400AC0155 /* PresentingCustomViewsModallyViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -170,6 +173,7 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* PresentingCustomViewsModallyViewController.xib in Resources */,
 				E339BC9E1308434B0002C3A3 /* modalbox_bg.png in Resources */,
+				E3C93EE4130AF0AC005DCE91 /* modalbox_bg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

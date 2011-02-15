@@ -324,13 +324,14 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E346AE2213085B9F00C53711</string>
+										<string>E3C93EB2130AE2BC005DCE91</string>
 										<key>history</key>
 										<array>
 											<string>E339BCE81308537E0002C3A3</string>
-											<string>E346ADF0130855B600C53711</string>
-											<string>E346AE1713085AC600C53711</string>
-											<string>E346AE1813085AC600C53711</string>
+											<string>E346AE33130868B000C53711</string>
+											<string>E346AE34130868B000C53711</string>
+											<string>E346AE35130868B000C53711</string>
+											<string>E346AE37130868B000C53711</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -388,9 +389,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>E346ADCB130853A000C53711</string>
+				<string>E3C93EB3130AE2BC005DCE91</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>E346ADCC130853A000C53711</string>
+				<string>E3C93EB4130AE2BC005DCE91</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -528,8 +529,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>E339BC741307EBFF0002C3A3</string>
 		<string>/Users/ahmet/Documents/PresentingCustomViewsModally/PresentingCustomViewsModally.xcodeproj</string>
 	</array>
@@ -611,7 +610,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>E339BC741307EBFF0002C3A3</string>
-				<string>E346ADCD130853A000C53711</string>
+				<string>E3C93EB5130AE2BC005DCE91</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -870,18 +869,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {962, 303}}</string>
+								<string>{{0, 0}, {1440, 777}}</string>
 								<key>RubberWindowFrame</key>
-								<string>21 511 962 344 0 0 1440 878 </string>
+								<string>0 60 1440 818 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
 							<key>Proportion</key>
-							<string>303pt</string>
+							<string>777pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>303pt</string>
+					<string>777pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -901,7 +900,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>21 511 962 344 0 0 1440 878 </string>
+			<string>0 60 1440 818 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>

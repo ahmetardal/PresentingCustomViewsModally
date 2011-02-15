@@ -137,7 +137,7 @@ static const CGFloat kModalBoxPadding = 15.0f;
 
 
 #pragma mark -
-#pragma mark 
+#pragma mark Show/Hide Methods
 
 - (void) showInView:(UIView *)parentView
 {
@@ -151,6 +151,10 @@ static const CGFloat kModalBoxPadding = 15.0f;
     self.frame = [self viewFrameForOrientation:[[UIApplication sharedApplication] statusBarOrientation]];
     self.overlayView.frame = self.frame;
     self.modalBoxView.center = self.overlayView.center;
+
+    //
+    // add self to parentView and update layout
+    //
     [parentView addSubview:self];
     [self setNeedsLayout];
 
@@ -186,9 +190,7 @@ static const CGFloat kModalBoxPadding = 15.0f;
 - (void) animationDidStop:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context
 {
     if (((int) context) == kHideContext) {
-        //
-        // hide animation finished, we can remove self from our superview
-        //
+        // hide animation completed, we can now safely remove self from our superview
         [self removeFromSuperview];
     }
 }
@@ -205,15 +207,17 @@ static const CGFloat kModalBoxPadding = 15.0f;
 
 - (void) interfaceOrientationWillChange:(NSNotification *)notification
 {
-    NSDictionary *userInfo = [notification userInfo];
-    UIInterfaceOrientation newInterfaceOrientation =
-        (UIInterfaceOrientation) [[userInfo objectForKey:UIApplicationStatusBarOrientationUserInfoKey] unsignedIntegerValue];
+    id orientationVal = [[notification userInfo] objectForKey:UIApplicationStatusBarOrientationUserInfoKey];
+    if (orientationVal == nil) {
+        return;
+    }
 
     //
     // adjust views for interface orientation change, if necessary
     //
-    if ([self shouldModifyLayoutForOrientation:newInterfaceOrientation]) {
-        self.frame = [self viewFrameForOrientation:newInterfaceOrientation];
+    UIInterfaceOrientation newOrientation = (UIInterfaceOrientation) [orientationVal unsignedIntegerValue];
+    if ([self shouldModifyLayoutForOrientation:newOrientation]) {
+        self.frame = [self viewFrameForOrientation:newOrientation];
         self.overlayView.frame = self.frame;
         self.modalBoxView.center = self.overlayView.center;
         [self setNeedsLayout];
