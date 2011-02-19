@@ -92,7 +92,6 @@ static const CGFloat kModalBoxPadding = 15.0f;
     UILabel *label = [[UILabel alloc] initWithFrame:labelFrame];
     label.backgroundColor = [UIColor clearColor];
     label.textColor = [UIColor whiteColor];
-    //label.textAlignment = UITextAlignmentCenter;
     label.numberOfLines = 5;
     label.text = @"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
                  @"Lorem Ipsum has been the industry's standard dummy text ever.";

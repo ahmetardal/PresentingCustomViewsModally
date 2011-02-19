@@ -16,8 +16,8 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* PresentingCustomViewsModallyViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1027, 741}}";
-			sepNavSelRange = "{343, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {995, 741}}";
+			sepNavSelRange = "{269, 16}";
 			sepNavVisRange = "{0, 343}";
 		};
 	};
@@ -32,7 +32,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = E339BC671307EBFB0002C3A3 /* PresentingCustomViewsModally */;
-		activeSDKPreference = iphoneos4.2;
+		activeSDKPreference = iphonesimulator4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* PresentingCustomViewsModally */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* PresentingCustomViewsModally */,
@@ -47,7 +47,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					817,
+					959,
 					20,
 					48,
 					43,
@@ -64,16 +64,23 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 319481969;
-			PBXWorkspaceStateSaveDate = 319481969;
+			PBXPerProjectTemplateStateSaveDate = 319793944;
+			PBXWorkspaceStateSaveDate = 319793944;
 		};
 		perUserProjectItems = {
-			E339BCE81308537E0002C3A3 /* PBXTextBookmark */ = E339BCE81308537E0002C3A3 /* PBXTextBookmark */;
-			E3C93EE7130AF3D3005DCE91 /* PBXTextBookmark */ = E3C93EE7130AF3D3005DCE91 /* PBXTextBookmark */;
-			E3C93EE8130AF3D3005DCE91 /* PBXTextBookmark */ = E3C93EE8130AF3D3005DCE91 /* PBXTextBookmark */;
-			E3C93EE9130AF3D3005DCE91 /* PBXTextBookmark */ = E3C93EE9130AF3D3005DCE91 /* PBXTextBookmark */;
-			E3C93EEA130AF3D3005DCE91 /* PBXTextBookmark */ = E3C93EEA130AF3D3005DCE91 /* PBXTextBookmark */;
-			E3C93EEB130AF3D3005DCE91 /* PBXTextBookmark */ = E3C93EEB130AF3D3005DCE91 /* PBXTextBookmark */;
+			E339BCE81308537E0002C3A3 = E339BCE81308537E0002C3A3 /* PBXTextBookmark */;
+			E3A40796130FAB1F001CF8DB /* PBXTextBookmark */ = E3A40796130FAB1F001CF8DB /* PBXTextBookmark */;
+			E3A4079C130FAF4D001CF8DB /* PBXTextBookmark */ = E3A4079C130FAF4D001CF8DB /* PBXTextBookmark */;
+			E3A4079D130FAF4D001CF8DB /* PBXTextBookmark */ = E3A4079D130FAF4D001CF8DB /* PBXTextBookmark */;
+			E3A4079E130FAF4D001CF8DB /* PBXTextBookmark */ = E3A4079E130FAF4D001CF8DB /* PBXTextBookmark */;
+			E3A4079F130FAF4D001CF8DB /* PBXTextBookmark */ = E3A4079F130FAF4D001CF8DB /* PBXTextBookmark */;
+			E3A407A0130FAF4D001CF8DB /* PBXTextBookmark */ = E3A407A0130FAF4D001CF8DB /* PBXTextBookmark */;
+			E3A407A8130FB033001CF8DB /* PBXTextBookmark */ = E3A407A8130FB033001CF8DB /* PBXTextBookmark */;
+			E3C93EE7130AF3D3005DCE91 = E3C93EE7130AF3D3005DCE91 /* PBXTextBookmark */;
+			E3C93EE8130AF3D3005DCE91 = E3C93EE8130AF3D3005DCE91 /* PBXTextBookmark */;
+			E3C93EE9130AF3D3005DCE91 = E3C93EE9130AF3D3005DCE91 /* PBXTextBookmark */;
+			E3C93EEA130AF3D3005DCE91 = E3C93EEA130AF3D3005DCE91 /* PBXTextBookmark */;
+			E3C93EEB130AF3D3005DCE91 = E3C93EEB130AF3D3005DCE91 /* PBXTextBookmark */;
 		};
 		sourceControlManager = E339BC761307EBFF0002C3A3 /* Source Control */;
 		userBuildSettings = {
@@ -132,10 +139,10 @@
 	};
 	E339BC9713083AD00002C3A3 /* ModalBoxView.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{868, 3316}\";\n            s = 0;\n        },\n                {\n            r = \"{4223, 57}\";\n            s = 0;\n        },\n                {\n            r = \"{4304, 201}\";\n            s = 0;\n        },\n                {\n            r = \"{4605, 702}\";\n            s = 0;\n        },\n                {\n            r = \"{5328, 328}\";\n            s = 0;\n        },\n                {\n            r = \"{5767, 177}\";\n            s = 0;\n        },\n                {\n            r = \"{6039, 71}\";\n            s = 0;\n        },\n                {\n            r = \"{6188, 647}\";\n            s = 0;\n        },\n                {\n            r = \"{6913, 198}\";\n            s = 0;\n        },\n                {\n            r = \"{7196, 306}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 7513}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {995, 1232}}";
-			sepNavSelRange = "{774, 0}";
-			sepNavVisRange = "{0, 941}";
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{4171, 57}\";\n            s = 0;\n        },\n                {\n            r = \"{4252, 201}\";\n            s = 0;\n        },\n                {\n            r = \"{4553, 702}\";\n            s = 0;\n        },\n                {\n            r = \"{5276, 328}\";\n            s = 0;\n        },\n                {\n            r = \"{5715, 177}\";\n            s = 0;\n        },\n                {\n            r = \"{5987, 71}\";\n            s = 0;\n        },\n                {\n            r = \"{6136, 647}\";\n            s = 0;\n        },\n                {\n            r = \"{6861, 198}\";\n            s = 0;\n        },\n                {\n            r = \"{7144, 306}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 7461}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1137, 2384}}";
+			sepNavSelRange = "{2879, 0}";
+			sepNavVisRange = "{2624, 1694}";
 		};
 	};
 	E339BCE81308537E0002C3A3 /* PBXTextBookmark */ = {
@@ -147,6 +154,76 @@
 		rType = 0;
 		vrLen = 343;
 		vrLoc = 0;
+	};
+	E3A40796130FAB1F001CF8DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E339BC9713083AD00002C3A3 /* ModalBoxView.m */;
+		name = "ModalBoxView.m: 25";
+		rLen = 0;
+		rLoc = 468;
+		rType = 0;
+		vrLen = 4512;
+		vrLoc = 0;
+	};
+	E3A4079C130FAF4D001CF8DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E339BC9613083AD00002C3A3 /* ModalBoxView.h */;
+		name = "ModalBoxView.h: 27";
+		rLen = 0;
+		rLoc = 510;
+		rType = 0;
+		vrLen = 510;
+		vrLoc = 0;
+	};
+	E3A4079D130FAF4D001CF8DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PresentingCustomViewsModallyViewController.m */;
+		name = "PresentingCustomViewsModallyViewController.m: 41";
+		rLen = 0;
+		rLoc = 772;
+		rType = 0;
+		vrLen = 772;
+		vrLoc = 0;
+	};
+	E3A4079E130FAF4D001CF8DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* PresentingCustomViewsModallyViewController.h */;
+		name = "PresentingCustomViewsModallyViewController.h: 11";
+		rLen = 16;
+		rLoc = 269;
+		rType = 0;
+		vrLen = 343;
+		vrLoc = 0;
+	};
+	E3A4079F130FAF4D001CF8DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E339BC9713083AD00002C3A3 /* ModalBoxView.m */;
+		name = "ModalBoxView.m: 25";
+		rLen = 0;
+		rLoc = 468;
+		rType = 0;
+		vrLen = 4512;
+		vrLoc = 0;
+	};
+	E3A407A0130FAF4D001CF8DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E339BC9713083AD00002C3A3 /* ModalBoxView.m */;
+		name = "ModalBoxView.m: 25";
+		rLen = 0;
+		rLoc = 468;
+		rType = 0;
+		vrLen = 1576;
+		vrLoc = 854;
+	};
+	E3A407A8130FB033001CF8DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E339BC9713083AD00002C3A3 /* ModalBoxView.m */;
+		name = "ModalBoxView.m: 95";
+		rLen = 0;
+		rLoc = 2879;
+		rType = 0;
+		vrLen = 2651;
+		vrLoc = 2624;
 	};
 	E3C93EE7130AF3D3005DCE91 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
